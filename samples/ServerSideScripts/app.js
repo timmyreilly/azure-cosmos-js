@@ -59,7 +59,9 @@ async function run() {
   console.log("//////////////////////////////////");
 
   await database.delete();
+  console.log("Database and Collection DELETED"); 
   console.log("Demo finished");
+  
 }
 
 run().catch(console.error);
